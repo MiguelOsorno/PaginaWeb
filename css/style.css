@@ -276,8 +276,6 @@ p.parrafos-azul{
     width: 100%;
 }
 
-/*creo q aqui ya esta bien*/
-
 
 .preguntas-enlinea{
     display: inline-block;
@@ -308,8 +306,6 @@ p.parrafos-azul{
 .preguntas-pequenas p{
     margin:0;
 }
-
-/*asta aqui va bien*/
 
 .comentario__parrafo p{
     margin:0;
