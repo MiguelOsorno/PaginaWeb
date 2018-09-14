@@ -1,0 +1,403 @@
+body{
+    font-family: Arial, Verdana sans-serif;
+    margin:0;
+    padding:0;
+}
+.wrap-page{
+    max-width: 900px;
+    margin: auto;
+}
+    
+.header-wrap{
+    text-align: right;
+}
+.message-wrap{
+    display: inline-block;
+}
+.button-wrap{
+    display: inline-block;
+}
+.my-button{
+    border: none;
+    background-color: transparent;
+    
+    min-width: 124px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+.my-button__link{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    display: block;
+}
+.my-button__link--dark{
+    background-color: red;
+    color:white;
+}
+.my-button__link--light{
+    background-color: white;
+    color: red;
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.my-button--color-red{
+    color: red;
+}
+.my-button--color-white{
+    color:white;
+}
+.my-button--bg-color-red
+{
+    background-color: red;
+}
+.my-button--bg-color-white{
+    background-color: white;
+}
+.my-button--border-color-red{
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+}
+.container-flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: flex;
+    /*agrege yo miguel flex-wrap:wrap*/
+    flex-wrap: wrap;
+    /**/
+
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    list-style: none;
+    display: flex;
+    /*agrege yo miguel flex-wrap:wrap*/
+    flex-wrap: wrap;
+    /**/
+}
+.nav__item{
+    padding: 10px 20px;
+}
+
+a{
+    color:#119ec2;
+    text-decoration: none;
+}
+
+
+/*fin de inicio y menu*/
+
+
+/*inicio de imagen con texto*/
+
+.slide{
+    position: relative;
+    
+}
+.slide__image{
+    width:100%;
+}
+.slide__text-wrap{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    /*transform: translate(-50%,-50%);
+    text-align: center;*/
+}
+.slide__text-wrap p{
+    color:white;
+}
+
+/*fin de codigo de imagen con texto adelante*/
+
+
+
+/*diseño a parrafo hecho x mi*/
+
+.primerParrafo{
+    font-size: 250%;
+    margin: 8px;
+   
+}
+
+.segundoParrafo{
+    font-size: 150%;
+    text-align: center;
+    margin:8px;
+   
+}
+
+
+.contenedor-botones{
+    position: absolute;
+    top:60%;
+    right:10%;
+}
+/*fin de diseño de parrafos*/
+
+
+
+
+
+/*botones de imagen*/
+.my-button2{
+    border: none;
+    background-color: transparent;
+    
+    min-width: 124px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.my-button2__link{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    display: block;
+}
+
+.my-button2__link--light{
+    background-color: rgba(242, 255, 255, 0.7);
+    color: red;
+}
+
+.my-button2__link--blue{
+    margin-top:10px;
+    background-color: rgba(15, 114, 128, 0.7) ;
+    color: white;
+
+}
+
+/*fin de botones en imagen*/
+
+
+
+
+
+/*incio de menu con 4 imagenes*/
+
+.slide3{
+    /*display: flex;*/
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.titulo{
+    text-align: center;
+    color:#119ec2;
+}
+
+
+.imagenesConTexto{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagenesConTexto__items{
+    width: 20%;
+    margin: 5px 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.imagenes4{
+    width:100%;
+}
+
+p.parrafos-azul{
+    color:#119ec2;
+}
+
+.boton-final{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content:center;
+}
+
+/*fin de menu con 4 imagenes*/
+
+
+
+/*inicio de menu con encuesta*/
+.contenedorEncuesta{
+    position: relative;
+}
+
+.contenedorEncuesta__image{
+    width:100%;
+}
+
+
+.contenedorEncuesta__encuesta{
+    position: absolute;
+    width:50%;
+    top:15%;
+    left:13%;
+}
+
+.encuesta1{
+    display: inline-block;
+    margin: 5px;
+    width: 30%;
+}
+
+.encuesta2{
+    display: inline-block;
+    margin: 5px;
+    width: 55%;
+}
+.encuesta-preguntas{
+    display: inline-block;
+    width:100%;
+}
+
+.encuesta1 p{
+    margin:0;
+}
+
+
+.titulo-encuesta h2{
+    margin:0;
+}
+
+.titulo-encuesta{
+    margin:10px;
+}
+
+.caja{
+    width: 100%;
+}
+
+/*creo q aqui ya esta bien*/
+
+
+.preguntas-enlinea{
+    display: inline-block;
+    width:28%;
+    margin: 0 5px 10px 5px;
+}
+
+.preguntas-enlinea p{
+    margin:0;
+}
+
+.cajas-enlinea{
+    width:100%;
+}
+
+.cajasP-enlinea{
+    display: inline-block;
+    width: 18%;
+    margin: 0 3px 10px 3px;
+}
+
+.preguntas-pequenas{
+    display: inline-block;
+    width: 15%;
+    margin: 0 5px 10px 5px;
+}
+
+.preguntas-pequenas p{
+    margin:0;
+}
+
+/*asta aqui va bien*/
+
+.comentario__parrafo p{
+    margin:0;
+}
+
+.area{
+    width:90%;
+}
+
+.comentarios{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.contenedorEncuesta__encuesta p{
+    color:white;
+    text-transform: capitalize;
+}
+
+.titulo-encuesta h2{
+    color: white;
+    text-transform: capitalize;
+}
+/*fin de la encuesta*/
+
+
+/*inicio de palabra a lado de la encuesta*/
+
+.palabraDerecha{
+    position: absolute;
+    width: 30%;
+    top:25%;
+    right: 10%;;
+}
+
+
+.palabraDerecha h1{
+    font-size: 250%;
+    margin-left: 60px;
+    color:white;
+}
+
+.boton-final2{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 40px;
+}
+/*fin de palabra al lado*/
+
+
+/* inicio de pequeño menu*/
+
+.segundoMenu{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.segundoMenu__palabra{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.segundoMenu__encuesta{
+    display: inline-block;
+}
+
+.boton-final3{
+  
+    display: flex;
+    justify-content:flex-end;
+    
+}
+
+.titulo-segundoMenu{
+    margin-bottom: 10px;
+}
+
+.titulo-segundoMenu h2{
+    margin:0;
+}
+
+.parrafo-segundoMenu p{
+    margin: 0;
+}
+
