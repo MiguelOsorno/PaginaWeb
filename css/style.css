@@ -365,6 +365,7 @@ p.parrafos-azul{
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+    background-color: #8a9191;
 }
 
 
@@ -372,10 +373,12 @@ p.parrafos-azul{
     display: inline-block;
     margin-bottom: 20px;
     margin-top: 20px;
+    margin-left: 50px;
 }
 
 .segundoMenu__encuesta{
     display: inline-block;
+    margin-right: 50px;
 }
 
 .boton-final3{
@@ -387,6 +390,7 @@ p.parrafos-azul{
 
 .titulo-segundoMenu{
     margin-bottom: 10px;
+    color:white;
 }
 
 .titulo-segundoMenu h2{
@@ -395,6 +399,215 @@ p.parrafos-azul{
 
 .parrafo-segundoMenu p{
     margin: 0;
+    color:white;
+    font-size: 80%;
 }
 
 /*ola*/
+
+/*todo hasta esta parte ya esta bien*/
+
+
+/*inicio de bloque de opiniones*/
+
+.titulo-opiniones h1{
+    margin: 0;
+    text-align: center;
+    color: #119ec2;
+}
+
+.titulo-opiniones{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contenedor-opiniones{
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.opiniones-clientes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.opiniones{
+    width: 17%;
+    margin: 0px 10px 0px 10px;
+    border: 1px solid #2345;
+    padding: 8px;
+}
+
+.opiniones p{
+    font-size: 70%;
+}
+
+.fecha{
+    text-align: right;
+}
+
+.parrafo-abajo p{
+    text-align: center;
+    font-size: 70%;
+    margin: 0;
+    padding-bottom: 10px;
+    color: #8a9191;
+}
+
+/*fin del bloque de opiniones*/
+
+
+/*incio de contenerdor anuncio*/
+
+.contenedor-anuncio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #119ec2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.anuncio{
+    margin-right: 20px;
+}
+
+.anuncio h1{
+    margin: 0;
+    color: white;
+}
+
+.anuncio p{
+    margin: 0;
+    color:white;
+}
+
+.anuncio-boton{
+    padding-top: 10px;
+}
+
+.anuncio-numero{
+    margin-left: 30px;
+}
+
+.anuncio-numero h1{
+   margin: 0;
+   color: white;
+}
+
+.anuncio-numero p{
+    margin: 0;
+    color: white;
+}
+
+/*fin de contenedor de anuncio*/
+
+/* incio de parte final de la pagina*/
+
+.contenedor-final{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.contenedor-mitad1{
+    width: 75%;
+}
+
+.columnas-informacion{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.columnas{
+    width: 26%;
+}
+
+.columnas-chicas{
+    width: 15%;
+}
+
+.columnas p{
+    font-size: 75%;
+    color: gray;
+}
+
+.columnas-chicas p{
+    font-size: 75%;
+    color: gray;
+}
+
+p.columna-titulo{
+    color:#119ec2;
+    font-size: 80%;
+}
+
+.final{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.privacy{
+    padding-left: 30px;
+}
+
+.privacy p{
+    color:#119ec2;
+    font-size: 80%;
+}
+
+.derechos p{
+    color:gray;
+    font-size: 80%;
+}
+
+.letras-rojas{
+    color: #b83636;
+}
+
+.derechos{
+    padding-right: 50px;
+}
+
+
+.contenedor-mitad2{
+    width: 25%;
+    padding-top: 20px;
+    background-color: #ececec;
+}
+
+.texto-final p{
+    font-size: 80%;
+    color:#119ec2;
+}
+
+.texto-final{
+    padding-left: 20px;
+}
+
+
+.inputs-finales{
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.textos-finales{
+    width: 80%;
+}
+
+
+.comentario-final{
+    width: 80%;
+}
+
+.boton-final{
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
